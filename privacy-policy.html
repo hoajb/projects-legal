@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPing Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the MyPing network diagnostics app.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #1f2933;
+      --muted: #52606d;
+      --accent: #0d9488;
+      --rule: #e4e7eb;
+      --code-bg: #f5f7fa;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --fg: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #14b8a6;
+        --rule: #1e293b;
+        --code-bg: #111c34;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 16px;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 0.5rem;
+      color: var(--accent);
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin: 2.25rem 0 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--rule);
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin: 1.5rem 0 0.5rem;
+    }
+    p, li { margin: 0.5rem 0; }
+    ul { padding-left: 1.4rem; }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+    .summary {
+      background: var(--code-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.35rem;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>MyPing Privacy Policy</h1>
+    <p class="meta">
+      Effective date: November 6, 2026<br>
+      Last updated: November 6, 2026
+    </p>
+
+    <p>
+      MyPing ("the app", "we", "us") is a network diagnostics app developed by
+      Hoa Nguyen. This policy explains what information the app handles and how.
+    </p>
+
+    <div class="summary">
+      <strong>Summary</strong>
+      <ul>
+        <li>No account is required.</li>
+        <li>No ads, analytics, crash reporting, or tracking SDKs.</li>
+        <li>We do not sell your data.</li>
+        <li>Feedback you submit is sent to GitHub and stored as a GitHub issue.</li>
+        <li>IP lookup requests are sent to third-party services.</li>
+      </ul>
+    </div>
+
+    <h2>Information you provide</h2>
+
+    <h3>Feedback and bug reports</h3>
+    <p>When you submit the feedback form, the app sends:</p>
+    <ul>
+      <li>the feedback type (Feedback, Feature Request, or Bug Report)</li>
+      <li>your message</li>
+      <li>your email address, if you choose to provide it</li>
+      <li>the app version, operating system and version, locale, and submission time</li>
+    </ul>
+    <p>
+      This information is sent over HTTPS to GitHub, Inc. and stored as an issue
+      in the MyPing project repository. If the repository is public, the issue —
+      and any email address you include — is publicly visible. Do not include
+      passwords, tokens, or other sensitive information in feedback.
+    </p>
+    <p>
+      We use this information to understand and respond to feedback, reproduce
+      bugs, and improve the app.
+    </p>
+
+    <h2>Network diagnostics</h2>
+
+    <h3>Ping tests</h3>
+    <p>
+      When you start a ping, the app contacts the host, IP address, or URL you
+      enter directly from your device. That target receives your IP address as
+      part of the network request, as with any network connection. Ping results
+      and latency statistics are calculated on your device and are not sent to us.
+    </p>
+
+    <h3>My IP</h3>
+    <p>
+      When you open My IP, the app requests your public IP information from:
+    </p>
+    <ul>
+      <li>ipwho.is — <a href="https://ipwho.is" rel="noopener">https://ipwho.is</a></li>
+      <li>ipify — <a href="https://www.ipify.org" rel="noopener">https://www.ipify.org</a></li>
+    </ul>
+    <p>
+      These providers receive your IP address and network request metadata and
+      return information such as your public IP, ISP, organization, country,
+      region, city, and timezone. Their own privacy policies apply. The app does
+      not send these results to us.
+    </p>
+
+    <h3>Local network interfaces</h3>
+    <p>
+      The app reads local network interface names and addresses on your device
+      to display them. This information stays on your device.
+    </p>
+
+    <h2>Data stored on your device</h2>
+    <p>
+      Ping results, session history, and app preferences (theme and language)
+      are kept in memory on your device for the current session. They are not
+      transmitted to us. They may be cleared when you clear history or close the
+      app.
+    </p>
+    <p>
+      The app does not request access to your contacts, camera, microphone,
+      photos, or precise location.
+    </p>
+
+    <h2>Third-party services</h2>
+    <ul>
+      <li>
+        <strong>GitHub, Inc.</strong> — stores feedback issues.
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" rel="noopener">
+          GitHub Privacy Statement</a>
+      </li>
+      <li>
+        <strong>ipwho.is</strong> — IP geolocation lookup.
+        <a href="https://ipwho.is" rel="noopener">https://ipwho.is</a>
+      </li>
+      <li>
+        <strong>ipify</strong> — public IP lookup.
+        <a href="https://www.ipify.org" rel="noopener">https://www.ipify.org</a>
+      </li>
+      <li>
+        <strong>Google Play</strong> — app distribution.
+        <a href="https://policies.google.com/privacy" rel="noopener">
+          Google Privacy Policy</a>
+      </li>
+    </ul>
+    <p>We do not use advertising, analytics, crash-reporting, or tracking SDKs.</p>
+
+    <h2>Sharing and sale</h2>
+    <p>
+      We do not sell, rent, or trade your information. Feedback is shared with
+      GitHub as described above. IP lookup providers process your request as
+      described above.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+      All network requests made by the app use HTTPS. No method of transmission
+      or storage is completely secure. Please do not include sensitive
+      information in feedback.
+    </p>
+
+    <h2>Retention and deletion</h2>
+    <p>
+      Feedback issues are retained until they are resolved or deleted. You can
+      request deletion of a feedback issue, including any email address you
+      included, by contacting us at
+      <a href="mailto:hoa.nguyenminh.it@gmail.com">hoa.nguyenminh.it@gmail.com</a>.
+      We may need enough information to identify the issue. GitHub may retain
+      copies according to its own policies.
+    </p>
+    <p>
+      Local data is cleared when you clear history, close the app, or uninstall it.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+      MyPing is not directed to children under 13. We do not knowingly collect
+      personal information from children. If you believe a child has submitted
+      personal information, contact us and we will delete it.
+    </p>
+
+    <h2>International transfers</h2>
+    <p>
+      Feedback is processed by GitHub in the United States. By submitting
+      feedback, you understand that your information may be transferred to and
+      processed in the United States and other countries where GitHub operates.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      We may update this policy from time to time. The current version will be
+      posted at this URL, with the effective date above. Material changes will
+      be reflected in an app update or a notice.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Hoa Nguyen<br>
+      <a href="mailto:hoa.nguyenminh.it@gmail.com">hoa.nguyenminh.it@gmail.com</a>
+    </p>
+
+    <footer>
+      © 2026 Hoa Nguyen. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
