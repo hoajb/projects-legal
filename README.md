@@ -2,9 +2,23 @@
 
 Public legal documents for apps by Hoa Nguyen.
 
-## MyPing
+## Projects
 
-- [Privacy Policy](https://hoajb.github.io/projects-legal/privacy-policy.html)
+### MyPing
+
+- [Privacy Policy](https://hoajb.github.io/projects-legal/my-ping/privacy-policy.html)
+- Source: [`my-ping/privacy-policy.html`](my-ping/privacy-policy.html)
+
+## Structure
+
+Each project gets its own subfolder:
+
+```
+<project>/
+  privacy-policy.html
+  privacy-policy.md
+  index.html          (redirects to the policy)
+```
 
 ## Hosting
 
