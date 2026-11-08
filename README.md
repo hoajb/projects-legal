@@ -9,6 +9,11 @@ Public legal documents for apps by Hoa Nguyen.
 - [Privacy Policy](https://hoajb.github.io/projects-legal/my-ping/privacy-policy.html)
 - Source: [`my-ping/privacy-policy.html`](my-ping/privacy-policy.html)
 
+### SpeedTest
+
+- [Privacy Policy](https://hoajb.github.io/projects-legal/speed-test/privacy-policy.html)
+- Source: [`speed-test/privacy-policy.html`](speed-test/privacy-policy.html)
+
 ## Structure
 
 Each project gets its own subfolder:
