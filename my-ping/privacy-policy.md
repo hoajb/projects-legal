@@ -9,8 +9,8 @@ Nguyen. This policy explains what information the app handles and how.
 ## Summary
 
 - No account is required.
-- No ads, analytics, crash reporting, or tracking SDKs.
-- We do not sell your data.
+- The app may display ads served by Google AdMob.
+- No analytics, crash reporting, or other tracking SDKs.
 - Feedback you submit is sent to GitHub and stored as a GitHub issue.
 - IP lookup requests are sent to third-party services.
 
@@ -68,8 +68,26 @@ to us. They may be cleared when you clear history or close the app.
 The app does not request access to your contacts, camera, microphone, photos,
 or precise location.
 
+## Advertising
+
+The app may display ads provided by Google AdMob. To serve and measure ads,
+AdMob may collect and process:
+
+- your advertising ID (or a similar device identifier)
+- device and app information (model, OS version, app version)
+- your IP address and general location
+- ad interaction and performance data
+
+This data is collected by AdMob under Google's privacy policy:
+https://policies.google.com/privacy
+
+You can reset your advertising ID or opt out of personalized ads at any time
+in your device settings. Users in the EEA and UK are asked for consent before
+personalized ads are shown.
+
 ## Third-party services
 
+- **Google AdMob** — advertising. https://policies.google.com/privacy
 - **GitHub, Inc.** — stores feedback issues.
   https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
 - **ipwho.is** — IP geolocation lookup. https://ipwho.is
